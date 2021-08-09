@@ -1,0 +1,20 @@
+body {
+    color: rebeccapurple;
+}
+
+p {
+    border: 3px solid black;
+}
+
+body > p + p[alt] {
+    text-decoration: hotpink wavy underline;
+}
+
+.pokemon-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    border: 3px dotted darkmagenta;
+}
